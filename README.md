@@ -33,28 +33,30 @@ To run the noteboook on your local machine you will need Pyhton 3.9 or above. Th
 
 '''
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt #for plotting
-import sklearn as sk
-import seaborn as sns
-import plotly.express as px
-import warnings #to ignore filter warnings
+- import pandas as pd
+- import numpy as np
+- import matplotlib.pyplot as plt #for plotting
+- import sklearn as sk
+- import seaborn as sns
+- import plotly.express as px
+- import warnings #to ignore filter warnings
+
 #for machine learning
-from sklearn.metrics import mean_squared_error,confusion_matrix, precision_score, recall_score, auc,roc_curve
-from sklearn import ensemble, linear_model, neighbors, svm, tree, neural_network
-from sklearn.linear_model import Ridge
-from sklearn.preprocessing import PolynomialFeatures
-from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
-from sklearn.pipeline import make_pipeline
-from sklearn.linear_model import LogisticRegression
-from sklearn import svm,model_selection, tree, linear_model, neighbors, naive_bayes, ensemble, discriminant_analysis, gaussian_process
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.naive_bayes import GaussianNB
-from sklearn.svm import SVC, LinearSVC
-from sklearn.exceptions import FitFailedWarning
+
+- from sklearn.metrics import mean_squared_error,confusion_matrix, precision_score, recall_score, auc,roc_curve
+- from sklearn import ensemble, linear_model, neighbors, svm, tree, neural_network
+- from sklearn.linear_model import Ridge
+- from sklearn.preprocessing import PolynomialFeatures
+- from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+- from sklearn.pipeline import make_pipeline
+- from sklearn.linear_model import LogisticRegression
+- from sklearn import svm,model_selection, tree, linear_model, neighbors, naive_bayes, ensemble, discriminant_analysis, gaussian_process
+- from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+- from sklearn.neighbors import KNeighborsClassifier
+- from sklearn.tree import DecisionTreeClassifier
+- from sklearn.naive_bayes import GaussianNB
+- from sklearn.svm import SVC, LinearSVC
+- from sklearn.exceptions import FitFailedWarning
 '''
 
 #### Setup
